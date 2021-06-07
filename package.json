@@ -1,40 +1,28 @@
 {
   "name": "jwt-cli",
-  "version": "1.2.3",
+  "version": "2.0.0",
   "description": "CLI program for decoding JSON Web Tokens (JWT)",
+  "main": "jwt.js",
+  "scripts": {
+    "test": "npm test"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/troyharvey/jwt-cli.git"
+    "url": "git+https://github.com/troyharvey/jwt-cli.git"
   },
-  "main": "jwt.js",
-  "bin": {
-    "jwt": "bin/jwt.js"
-  },
-  "dependencies": {
-    "colors": "1.x",
-    "eslint-config-prettier": "^6.10.1",
-    "eslint-plugin-prettier": "^3.1.2",
-    "format-json": "1.x",
-    "jsonwebtoken": "8.x",
-    "minimist": "^1.2.5",
-    "moment": "2.x"
-  },
-  "keywords": [
-    "jwt",
-    "json",
-    "decode",
-    "json-web-token",
-    "base64"
-  ],
   "author": "Troy Harvey <troyharvey@gmail.com>",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/troyharvey/jwt-cli/issues"
+  },
+  "homepage": "https://github.com/troyharvey/jwt-cli#readme",
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-standard": "^14.1.1",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
-    "prettier": "2.0.2"
+    "@types/jest": "^26.0.23",
+    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "@typescript-eslint/parser": "^4.26.0",
+    "eslint": "^7.28.0",
+    "jest": "^27.0.4",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.2"
   }
 }
