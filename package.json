@@ -1,10 +1,12 @@
 {
   "name": "jwt-cli",
-  "version": "2.0.0",
-  "description": "CLI program for decoding JSON Web Tokens (JWT)",
-  "main": "jwt.js",
+  "version": "1.0.0",
+  "description": "[![npm (tag)](https://img.shields.io/npm/v/jwt-cli/latest.svg)](https://www.npmjs.com/package/jwt-cli) [![npm](https://img.shields.io/npm/dt/jwt-cli.svg)](https://www.npmjs.com/package/jwt-cli)",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "npm test"
+    "start": "node ./dist/index.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -17,12 +19,6 @@
   },
   "homepage": "https://github.com/troyharvey/jwt-cli#readme",
   "devDependencies": {
-    "@types/jest": "^26.0.23",
-    "@typescript-eslint/eslint-plugin": "^4.26.0",
-    "@typescript-eslint/parser": "^4.26.0",
-    "eslint": "^7.28.0",
-    "jest": "^27.0.4",
-    "ts-jest": "^27.0.3",
-    "typescript": "^4.3.2"
+    "typescript": "^4.3.5"
   }
 }
